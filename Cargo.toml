@@ -1,0 +1,11 @@
+[package]
+name = "ultralight-rs"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.60.1"
+cmake = "0.1.48"
